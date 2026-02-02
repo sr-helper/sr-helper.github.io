@@ -1,7 +1,7 @@
 var table
 
 function onPageReady() {
-    var startingLicense = "B3.0";
+    var startingLicense = "A3.0";
     currentLicenses = ["", "", ""]
     updateLicenseCPI(currentLicenses);
 
@@ -10,7 +10,7 @@ function onPageReady() {
         columns: [
             {
                 title: 'Series',
-                data: 'season'
+                data: 'series'
             },
             {
                 title: 'Track',
@@ -22,7 +22,7 @@ function onPageReady() {
                 className: "incident",
                 render: function (data, type, row) {
                     console.log(row)
-                    return "<div>" + data + carTooltip(row.cars) + "</div>";
+                    return "<div>" + data + carTooltip(row.car_names) + "</div>";
                 }
             },
             {
@@ -74,8 +74,9 @@ function onPageReady() {
             {
                 title: 'CPM',
                 data: ['expected_time'],
+                type: "num",
                 render: function (data, type, row) {
-                    return Number((row['corners'] / (data * 24 * 60)).toFixed(2));
+                    return data == 0 ? "-" : Number((row['corners'] / (data / 60)).toFixed(2));
                 }
             },
             {
