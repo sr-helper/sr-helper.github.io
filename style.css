@@ -1,0 +1,100 @@
+table {
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/*.table-striped>tbody>tr:nth-of-type(odd)>* {
+    background-color: aquamarine;
+}*/
+
+th,
+td {
+    padding: 8px;
+}
+
+.license-box {
+    border-radius: 6px;
+    padding: 4px;
+    text-wrap: nowrap;
+    text-align: center;
+}
+
+div.class-a {
+    color: rgb(2, 68, 159);
+    background-color: rgb(204, 226, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0, 110, 255);
+}
+
+div.class-b {
+    color: rgb(33, 124, 6);
+    background-color: rgb(214, 245, 204);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(51, 204, 0);
+}
+
+div.class-c {
+    color: rgb(155, 124, 6);
+    background-color: rgb(255, 245, 204);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 204, 0);
+}
+
+div.class-d {
+    color: rgb(155, 63, 6);
+    background-color: rgb(255, 224, 204);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 102, 0);
+}
+
+div.class-r {
+    color: rgb(137, 24, 22);
+    background-color: rgb(249, 211, 209);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(225, 37, 27);
+}
+
+div.dt-buttons>input {
+    font-size: 0.88em;
+    line-height: 1.6em;
+    padding: 0.5em 1em;
+}
+
+td.incident>div {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    position: relative;
+    display: inline-block;
+}
+
+td.incident:hover {
+    outline: 2px solid rgba(0, 0, 0, 0.05);
+    outline-offset: -2px;
+}
+
+.incident:hover div.incident-tooltip {
+    visibility: visible;
+}
+
+.incident-tooltip {
+    visibility: hidden;
+    width: 250px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: #e4e4e4 solid 1px;
+    border-radius: 6px;
+    padding: 16px;
+    position: absolute;
+    z-index: 1;
+    left: 65%;
+    margin-left: -256px;
+    pointer-events: none;
+    /* Ensure tooltip is displayed above content */
+}
