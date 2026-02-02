@@ -20,6 +20,7 @@ function onPageReady() {
                 title: 'Car Class',
                 data: 'car_class',
                 className: "incident",
+                type: "html",
                 render: function (data, type, row) {
                     console.log(row)
                     return "<div>" + data + carTooltip(row.car_names) + "</div>";
@@ -51,6 +52,7 @@ function onPageReady() {
             {
                 title: 'License',
                 data: 'license',
+                type: "html",
                 render: function (data) {
                     return '<div class="license-box class-' + data.toLowerCase() + '">' + data + '</div>';
                 }
@@ -84,8 +86,11 @@ function onPageReady() {
                 data: "license0",
                 type: "num",
                 className: "incident",
-                render: function (data) {
-                    return "<div>" + data + "x" + incidentTooltip(data, currentLicenses[0]) + "</div>";
+                render: function (data, type) {
+                    if (type === 'display' || type === 'filter') {
+                        data = "<div>" + data + "x" + incidentTooltip(data, currentLicenses[0]) + "</div>";
+                    }
+                    return data
                 }
             },
             {
@@ -93,8 +98,11 @@ function onPageReady() {
                 data: 'license1',
                 type: "num",
                 className: "incident",
-                render: function (data) {
-                    return "<div>" + data + "x" + incidentTooltip(data, currentLicenses[1]) + "</div>";
+                render: function (data, type) {
+                    if (type === 'display' || type === 'filter') {
+                        data = "<div>" + data + "x" + incidentTooltip(data, currentLicenses[1]) + "</div>";
+                    }
+                    return data
                 }
 
             },
@@ -103,8 +111,11 @@ function onPageReady() {
                 data: 'license2',
                 type: "num",
                 className: "incident",
-                render: function (data) {
-                    return "<div>" + data + "x" + incidentTooltip(data, currentLicenses[2]) + "</div>";
+                render: function (data, type) {
+                    if (type === 'display' || type === 'filter') {
+                        data = "<div>" + data + "x" + incidentTooltip(data, currentLicenses[2]) + "</div>";
+                    }
+                    return data
                 }
             }
         ],
