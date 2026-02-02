@@ -122,28 +122,30 @@ function onPageReady() {
         },
         columnControl: ['orderStatus'],
         layout: {
-            topStart: {
+            top2Start: {
                 div: {
                     html: 'Current License<input id="license-input" style="margin-left: 6px"><button class="dt-button" type="button" onclick="setLicense(event);" style="margin-left: 6px">Set</button><span></span><input id="classFilterEnabled" type="checkbox" onChange="updateClassFilter(checked)">Filter by License</input>',
                     className: "dt-buttons"
                 }
             },
-            topEnd: {
-                buttons: [
-                    {
-                        extend: 'searchPanes',
-                        config: {
-                            controls: false,
-                            collapse: false,
-                            cascadePanes: true,
-                            dtOpts: {
-                                searching: false,
-                                select: {
-                                    style: 'multi'
-                                }
-                            }
+            top2End: {
+                div: {
+                    html: '<button class="dt-button" type="button" onclick="toggleSearchPanesVisiblilty(event);" style="margin-left: 6px">Filter</button>',
+                    className: "dt-buttons"
+                }
+            },
+            top: {
+                searchPanes: {
+                    controls: false,
+                    collapse: false,
+                    cascadePanes: true,
+                    dtOpts: {
+                        searching: false,
+                        select: {
+                            style: 'multi'
                         }
-                    }]
+                    }
+                }
             }
         },
         columnDefs: [
@@ -307,4 +309,13 @@ function carTooltip(cars) {
 
     return '<div class="incident-tooltip">' + '<h4 style="margin-top:0px;">Cars:</h4>' +
         '<span>' + carString + "</span>" + "</div>"
+}
+
+function toggleSearchPanesVisiblilty() {
+    var x = document.getElementsByClassName("dtsp-panesContainer")[0];
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
 }
