@@ -32,9 +32,9 @@ series = [
             "Dallara P217"
         ],
         "laps": 30,
-        "average_lap": 93.5274,
+        "average_lap": 93.1328,
         "corners_per_lap": 13,
-        "expected_time": 2805.822,
+        "expected_time": 2793.984,
         "corners": 390
     },
     {
@@ -58,27 +58,10 @@ series = [
             "Porsche 911 GT3 R (992)"
         ],
         "laps": 29,
-        "average_lap": 98.7971,
+        "average_lap": 97.9601,
         "corners_per_lap": 13,
-        "expected_time": 2865.1159,
+        "expected_time": 2840.8429,
         "corners": 377
-    },
-    {
-        "series": "IMSA iRacing Series - Fixed",
-        "track": "Circuito de Jerez - \u00c1ngel Nieto - Moto",
-        "car_class": "Dallara P217",
-        "category": "sports_car",
-        "license": "A",
-        "week_start": "2026-02-03",
-        "week": 8,
-        "car_names": [
-            "Dallara P217"
-        ],
-        "laps": 24,
-        "average_lap": 94.1346,
-        "corners_per_lap": 13,
-        "expected_time": 2259.2304,
-        "corners": 312
     },
     {
         "series": "IMSA iRacing Series - Fixed",
@@ -96,9 +79,26 @@ series = [
             "Porsche 963 GTP"
         ],
         "laps": 24,
-        "average_lap": 90.4659,
+        "average_lap": 90.2681,
         "corners_per_lap": 13,
-        "expected_time": 2171.1816,
+        "expected_time": 2166.4344,
+        "corners": 312
+    },
+    {
+        "series": "IMSA iRacing Series - Fixed",
+        "track": "Circuito de Jerez - \u00c1ngel Nieto - Moto",
+        "car_class": "Dallara P217",
+        "category": "sports_car",
+        "license": "A",
+        "week_start": "2026-02-03",
+        "week": 8,
+        "car_names": [
+            "Dallara P217"
+        ],
+        "laps": 24,
+        "average_lap": 93.6009,
+        "corners_per_lap": 13,
+        "expected_time": 2246.4216,
         "corners": 312
     },
     {
@@ -121,11 +121,11 @@ series = [
             "Mercedes-AMG GT3 2020",
             "Porsche 911 GT3 R (992)"
         ],
-        "laps": 22,
-        "average_lap": 99.9144,
+        "laps": 23,
+        "average_lap": 97.9583,
         "corners_per_lap": 13,
-        "expected_time": 2198.1168,
-        "corners": 286
+        "expected_time": 2253.0409,
+        "corners": 299
     },
     {
         "series": "Proto-GT Challenge ",
@@ -139,26 +139,9 @@ series = [
             "HPD ARX-01c"
         ],
         "laps": 5,
-        "average_lap": 355.4364,
+        "average_lap": 351.4715,
         "corners_per_lap": 154,
-        "expected_time": 1777.182,
-        "corners": 770
-    },
-    {
-        "series": "Proto-GT Challenge ",
-        "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-        "car_class": "Ford GT",
-        "category": "sports_car",
-        "license": "B",
-        "week_start": "2026-02-03",
-        "week": 8,
-        "car_names": [
-            "Ford GT GT2"
-        ],
-        "laps": 5,
-        "average_lap": 407.9505,
-        "corners_per_lap": 154,
-        "expected_time": 2039.7525,
+        "expected_time": 1757.3575,
         "corners": 770
     },
     {
@@ -177,6 +160,23 @@ series = [
         "average_lap": 389.4743,
         "corners_per_lap": 154,
         "expected_time": 1947.3715,
+        "corners": 770
+    },
+    {
+        "series": "Proto-GT Challenge ",
+        "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+        "car_class": "Ford GT",
+        "category": "sports_car",
+        "license": "B",
+        "week_start": "2026-02-03",
+        "week": 8,
+        "car_names": [
+            "Ford GT GT2"
+        ],
+        "laps": 5,
+        "average_lap": 404.8453,
+        "corners_per_lap": 154,
+        "expected_time": 2024.2265,
         "corners": 770
     },
     {
@@ -319,6 +319,33 @@ series = [
         "corners": 169
     },
     {
+        "series": "iRacing GT3 Regional Tour - Asia Pacific",
+        "track": "Phillip Island Circuit",
+        "car_class": "GT3 2025",
+        "category": "sports_car",
+        "license": "B",
+        "week_start": "2026-02-03",
+        "week": 8,
+        "car_names": [
+            "Acura NSX GT3 EVO 22",
+            "Aston Martin Vantage GT3 EVO",
+            "Audi R8 LMS EVO II GT3",
+            "BMW M4 GT3 EVO",
+            "Chevrolet Corvette Z06 GT3.R",
+            "Ferrari 296 GT3",
+            "Ford Mustang GT3",
+            "Lamborghini Hurac\u00e1n GT3 EVO",
+            "McLaren 720S GT3 EVO",
+            "Mercedes-AMG GT3 2020",
+            "Porsche 911 GT3 R (992)"
+        ],
+        "laps": 14,
+        "average_lap": 88.3154,
+        "corners_per_lap": 12,
+        "expected_time": 1236.4156,
+        "corners": 168
+    },
+    {
         "series": "iRacing GT3 Regional Tour - Americas",
         "track": "Watkins Glen International - Boot",
         "car_class": "GT3 2025",
@@ -367,9 +394,9 @@ series = [
             "Porsche 911 GT3 R (992)"
         ],
         "laps": 14,
-        "average_lap": 89.1237,
+        "average_lap": 88.9874,
         "corners_per_lap": 9,
-        "expected_time": 1247.7318,
+        "expected_time": 1245.8236,
         "corners": 126
     },
     {
@@ -417,6 +444,23 @@ series = [
         "corners": 462
     },
     {
+        "series": "IMSA Vintage Series",
+        "track": "Red Bull Ring - Grand Prix",
+        "car_class": "Nissan GTP",
+        "category": "sports_car",
+        "license": "C",
+        "week_start": "2026-02-03",
+        "week": 8,
+        "car_names": [
+            "Nissan GTP ZX-T"
+        ],
+        "laps": 32,
+        "average_lap": 77.2714,
+        "corners_per_lap": 9,
+        "expected_time": 2472.6848,
+        "corners": 288
+    },
+    {
         "series": "Formula C - Super Formula Lights by Ready Set Sim",
         "track": "Donington Park Racing Circuit - Grand Prix",
         "car_class": "Super Formula Lights",
@@ -434,21 +478,21 @@ series = [
         "corners": 276
     },
     {
-        "series": "iRacing Porsche Cup - Fixed by CONSPIT",
-        "track": "Autodromo Internazionale Enzo e Dino Ferrari - Grand Prix",
-        "car_class": "Porsche 911 Cup (992.2)",
+        "series": "IMSA Vintage Series",
+        "track": "Red Bull Ring - Grand Prix",
+        "car_class": "Audi 90 GTO",
         "category": "sports_car",
         "license": "C",
         "week_start": "2026-02-03",
         "week": 8,
         "car_names": [
-            "Porsche 911 Cup (992.2)"
+            "Audi 90 GTO"
         ],
-        "laps": 15,
-        "average_lap": 102.1641,
-        "corners_per_lap": 17,
-        "expected_time": 1532.4615,
-        "corners": 255
+        "laps": 29,
+        "average_lap": 87.4301,
+        "corners_per_lap": 9,
+        "expected_time": 2535.4729,
+        "corners": 261
     },
     {
         "series": "iRacing Porsche Cup by CONSPIT",
@@ -466,6 +510,40 @@ series = [
         "corners_per_lap": 17,
         "expected_time": 1524.684,
         "corners": 255
+    },
+    {
+        "series": "iRacing Porsche Cup - Fixed by CONSPIT",
+        "track": "Autodromo Internazionale Enzo e Dino Ferrari - Grand Prix",
+        "car_class": "Porsche 911 Cup (992.2)",
+        "category": "sports_car",
+        "license": "C",
+        "week_start": "2026-02-03",
+        "week": 8,
+        "car_names": [
+            "Porsche 911 Cup (992.2)"
+        ],
+        "laps": 15,
+        "average_lap": 101.9646,
+        "corners_per_lap": 17,
+        "expected_time": 1529.469,
+        "corners": 255
+    },
+    {
+        "series": "Formula C - Dallara F3 Series - Fixed ",
+        "track": "Miami International Autodrome - Grand Prix",
+        "car_class": "Dallara F3",
+        "category": "formula_car",
+        "license": "C",
+        "week_start": "2026-02-03",
+        "week": 8,
+        "car_names": [
+            "Dallara F3"
+        ],
+        "laps": 14,
+        "average_lap": 112.0186,
+        "corners_per_lap": 17,
+        "expected_time": 1568.2604,
+        "corners": 238
     },
     {
         "series": "Indy NXT Road Series - Fixed",
@@ -499,23 +577,6 @@ series = [
         "average_lap": 113.086,
         "corners_per_lap": 17,
         "expected_time": 1583.204,
-        "corners": 238
-    },
-    {
-        "series": "Formula C - Dallara F3 Series - Fixed ",
-        "track": "Miami International Autodrome - Grand Prix",
-        "car_class": "Dallara F3",
-        "category": "formula_car",
-        "license": "C",
-        "week_start": "2026-02-03",
-        "week": 8,
-        "car_names": [
-            "Dallara F3"
-        ],
-        "laps": 14,
-        "average_lap": 112.0186,
-        "corners_per_lap": 17,
-        "expected_time": 1568.2604,
         "corners": 238
     },
     {
@@ -555,23 +616,6 @@ series = [
     {
         "series": "Sports Car Challenge by Falken Tyre",
         "track": "Autodromo Nazionale Monza - Combined",
-        "car_class": "Ligier JS P320",
-        "category": "sports_car",
-        "license": "C",
-        "week_start": "2026-02-03",
-        "week": 8,
-        "car_names": [
-            "Ligier JS P320"
-        ],
-        "laps": 12,
-        "average_lap": 158.4826,
-        "corners_per_lap": 15,
-        "expected_time": 1901.7912,
-        "corners": 180
-    },
-    {
-        "series": "Sports Car Challenge by Falken Tyre",
-        "track": "Autodromo Nazionale Monza - Combined",
         "car_class": "GT4 Class",
         "category": "sports_car",
         "license": "C",
@@ -586,9 +630,26 @@ series = [
             "Porsche 718 Cayman GT4 Clubsport MR"
         ],
         "laps": 12,
-        "average_lap": 172.6671,
+        "average_lap": 172.1885,
         "corners_per_lap": 15,
-        "expected_time": 2072.0052,
+        "expected_time": 2066.262,
+        "corners": 180
+    },
+    {
+        "series": "Sports Car Challenge by Falken Tyre",
+        "track": "Autodromo Nazionale Monza - Combined",
+        "car_class": "Ligier JS P320",
+        "category": "sports_car",
+        "license": "C",
+        "week_start": "2026-02-03",
+        "week": 8,
+        "car_names": [
+            "Ligier JS P320"
+        ],
+        "laps": 12,
+        "average_lap": 157.7455,
+        "corners_per_lap": 15,
+        "expected_time": 1892.946,
         "corners": 180
     },
     {
@@ -620,10 +681,78 @@ series = [
             "Ligier JS P320"
         ],
         "laps": 8,
-        "average_lap": 165.4489,
+        "average_lap": 165.1061,
         "corners_per_lap": 15,
-        "expected_time": 1323.5912,
+        "expected_time": 1320.8488,
         "corners": 120
+    },
+    {
+        "series": "Production Car Challenge by Sim-Lab",
+        "track": "Mount Panorama Circuit",
+        "car_class": "Mazda MX-5 Cup 2016",
+        "category": "sports_car",
+        "license": "D",
+        "week_start": "2026-02-03",
+        "week": 8,
+        "car_names": [
+            "Global Mazda MX-5 Cup"
+        ],
+        "laps": 11,
+        "average_lap": 154.2665,
+        "corners_per_lap": 23,
+        "expected_time": 1696.9315,
+        "corners": 253
+    },
+    {
+        "series": "Production Car Challenge by Sim-Lab",
+        "track": "Mount Panorama Circuit",
+        "car_class": "Toyota GR86",
+        "category": "sports_car",
+        "license": "D",
+        "week_start": "2026-02-03",
+        "week": 8,
+        "car_names": [
+            "Toyota GR86"
+        ],
+        "laps": 11,
+        "average_lap": 148.336,
+        "corners_per_lap": 23,
+        "expected_time": 1631.696,
+        "corners": 253
+    },
+    {
+        "series": "Production Car Challenge by Sim-Lab",
+        "track": "Mount Panorama Circuit",
+        "car_class": "BMW M2 CS Racing",
+        "category": "sports_car",
+        "license": "D",
+        "week_start": "2026-02-03",
+        "week": 8,
+        "car_names": [
+            "BMW M2 CS Racing"
+        ],
+        "laps": 11,
+        "average_lap": 138.4771,
+        "corners_per_lap": 23,
+        "expected_time": 1523.2481,
+        "corners": 253
+    },
+    {
+        "series": "Production Car Challenge by Sim-Lab",
+        "track": "Mount Panorama Circuit",
+        "car_class": "Renault Clio",
+        "category": "sports_car",
+        "license": "D",
+        "week_start": "2026-02-03",
+        "week": 8,
+        "car_names": [
+            "Renault Clio"
+        ],
+        "laps": 11,
+        "average_lap": 153.5398,
+        "corners_per_lap": 23,
+        "expected_time": 1688.9378,
+        "corners": 253
     },
     {
         "series": "Skip Barber Race Series",
@@ -694,6 +823,23 @@ series = [
         "corners": 168
     },
     {
+        "series": "Global Sports Car Challenge by Fanatec",
+        "track": "Brands Hatch Circuit - Grand Prix",
+        "car_class": "Cadillac CTS-VR",
+        "category": "sports_car",
+        "license": "D",
+        "week_start": "2026-02-03",
+        "week": 8,
+        "car_names": [
+            "Cadillac CTS-V Racecar"
+        ],
+        "laps": 18,
+        "average_lap": 86.2228,
+        "corners_per_lap": 9,
+        "expected_time": 1552.0104,
+        "corners": 162
+    },
+    {
         "series": "Ford Mustang Challenge by Skip Barber",
         "track": "Mount Panorama Circuit",
         "car_class": "Ford Mustang GT4",
@@ -756,26 +902,9 @@ series = [
             "Kia Optima"
         ],
         "laps": 17,
-        "average_lap": 93.6152,
+        "average_lap": 93.3804,
         "corners_per_lap": 9,
-        "expected_time": 1591.4584,
-        "corners": 153
-    },
-    {
-        "series": "Global Sports Car Challenge by Fanatec",
-        "track": "Brands Hatch Circuit - Grand Prix",
-        "car_class": "Cadillac CTS-VR",
-        "category": "sports_car",
-        "license": "D",
-        "week_start": "2026-02-03",
-        "week": 8,
-        "car_names": [
-            "Cadillac CTS-V Racecar"
-        ],
-        "laps": 17,
-        "average_lap": 88.786,
-        "corners_per_lap": 9,
-        "expected_time": 1509.362,
+        "expected_time": 1587.4668,
         "corners": 153
     },
     {
@@ -833,9 +962,9 @@ series = [
             "Porsche 911 GT3 R (992)"
         ],
         "laps": 12,
-        "average_lap": 77.0165,
+        "average_lap": 76.0333,
         "corners_per_lap": 10,
-        "expected_time": 924.198,
+        "expected_time": 912.3996,
         "corners": 120
     },
     {
@@ -884,31 +1013,29 @@ series = [
             "FIA F4"
         ],
         "laps": 12,
-        "average_lap": 75.146,
+        "average_lap": 75.1094,
         "corners_per_lap": 9,
-        "expected_time": 901.752,
+        "expected_time": 901.3128,
         "corners": 108
     },
     {
-        "series": "GT4 Challenge by Falken Tyre",
+        "series": "TCR Virtual Challenge - Fixed",
         "track": "Autodromo Nazionale Monza - Combined",
-        "car_class": "GT4 Class",
+        "car_class": "Touring Car",
         "category": "sports_car",
         "license": "D",
         "week_start": "2026-02-03",
         "week": 8,
         "car_names": [
-            "Aston Martin Vantage GT4",
-            "BMW M4 G82 GT4 Evo",
-            "Ford Mustang GT4",
-            "McLaren 570S GT4",
-            "Mercedes-AMG GT4",
-            "Porsche 718 Cayman GT4 Clubsport MR"
+            "Audi RS 3 LMS TCR",
+            "Honda Civic Type R TCR",
+            "Hyundai Elantra N TCR",
+            "Hyundai Veloster N TCR"
         ],
         "laps": 7,
-        "average_lap": 171.8907,
+        "average_lap": 186.3904,
         "corners_per_lap": 15,
-        "expected_time": 1203.2349,
+        "expected_time": 1304.7328,
         "corners": 105
     },
     {
@@ -932,23 +1059,25 @@ series = [
         "corners": 105
     },
     {
-        "series": "TCR Virtual Challenge - Fixed",
+        "series": "GT4 Challenge by Falken Tyre",
         "track": "Autodromo Nazionale Monza - Combined",
-        "car_class": "Touring Car",
+        "car_class": "GT4 Class",
         "category": "sports_car",
         "license": "D",
         "week_start": "2026-02-03",
         "week": 8,
         "car_names": [
-            "Audi RS 3 LMS TCR",
-            "Honda Civic Type R TCR",
-            "Hyundai Elantra N TCR",
-            "Hyundai Veloster N TCR"
+            "Aston Martin Vantage GT4",
+            "BMW M4 G82 GT4 Evo",
+            "Ford Mustang GT4",
+            "McLaren 570S GT4",
+            "Mercedes-AMG GT4",
+            "Porsche 718 Cayman GT4 Clubsport MR"
         ],
         "laps": 7,
-        "average_lap": 186.3904,
+        "average_lap": 171.8907,
         "corners_per_lap": 15,
-        "expected_time": 1304.7328,
+        "expected_time": 1203.2349,
         "corners": 105
     },
     {
