@@ -1,4 +1,5 @@
 var table
+var userLicenseColumn
 
 function onPageReady() {
     var startingLicense = "A3.0";
@@ -207,6 +208,7 @@ function updateLicenseColumns(input) {
     document.getElementById("license-input").value = input
     licenses = [classLetter + " 2.0", classLetter + " " + input.slice(1), classLetter + " " + max]
     licenses.sort();
+    userLicenseColumn = licenses.indexOf(classLetter + " " + input.slice(1));
     updateLicenseCPI(licenses);
     // iterate over each column, and change their title
     for (license in licenses) {
@@ -264,7 +266,9 @@ function updateLicenseCPI(licenseArray) {
     currentLicenses = licenseArray;
     for (let item in series) {
         for (let license in licenseArray) {
-            series[item]['license' + license] = Math.floor(series[item]['corners'] / calculateLicenseCPI(licenseArray[license]));
+            lic = license > userLicenseColumn && licenseArray[license].slice(-1) == "0" ? licenseArray[license].substr(0, 4) + "4" : licenseArray[license]
+            console.log(String(license > userLicenseColumn) + " " + String(licenseArray[license].slice(-1) == "0") + " : " + licenseArray[license] + " - " + lic)
+            series[item]['license' + license] = Math.floor(series[item]['corners'] / calculateLicenseCPI(lic));
         }
     }
 }
