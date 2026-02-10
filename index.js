@@ -195,7 +195,7 @@ function setLicense(e) {
 function updateLicenseColumns(input) {
 
 
-    classLetter = input.substr(0, 1)
+    classLetter = input.substr(0, 1).toUpperCase()
     max = "4.0"
     switch (classLetter) {
         case "A":
@@ -286,7 +286,7 @@ function updateClassFilter(checked) {
 
     if (checked) {
         // detemine the classes to filter
-        classLetter = document.getElementById("license-input").value.substr(0, 1)
+        classLetter = document.getElementById("license-input").value.substr(0, 1).toUpperCase()
         licenseMap = {
             "R": 0,
             "D": 1,
