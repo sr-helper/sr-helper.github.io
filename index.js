@@ -64,19 +64,23 @@ function onPageReady() {
             },
             {
                 title: 'Laps',
-                data: 'laps'
+                data: 'laps',
+                orderSequence: ['desc', 'asc', '']
             },
             {
                 title: 'CPL',
-                data: 'corners_per_lap'
+                data: 'corners_per_lap',
+                orderSequence: ['desc', 'asc', '']
             },
             {
                 title: 'Corners',
-                data: 'corners'
+                data: 'corners',
+                orderSequence: ['desc', 'asc', '']
             },
             {
                 title: 'CPM',
                 data: ['expected_time'],
+                orderSequence: ['desc', 'asc', ''],
                 type: "num",
                 render: function (data, type, row) {
                     return data == 0 ? "-" : Number((row['corners'] / (data / 60)).toFixed(2));
@@ -86,6 +90,7 @@ function onPageReady() {
                 name: "license0",
                 data: "license0",
                 type: "num",
+                orderSequence: ['desc', 'asc', ''],
                 className: "incident",
                 render: function (data, type) {
                     if (type === 'display' || type === 'filter') {
@@ -98,6 +103,7 @@ function onPageReady() {
                 name: "license1",
                 data: 'license1',
                 type: "num",
+                orderSequence: ['desc', 'asc', ''],
                 className: "incident",
                 render: function (data, type) {
                     if (type === 'display' || type === 'filter') {
@@ -111,6 +117,7 @@ function onPageReady() {
                 name: "license2",
                 data: 'license2',
                 type: "num",
+                orderSequence: ['desc', 'asc', ''],
                 className: "incident",
                 render: function (data, type) {
                     if (type === 'display' || type === 'filter') {
