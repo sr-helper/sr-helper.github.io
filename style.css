@@ -1,16 +1,6 @@
-table {
-    text-align: left;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-/*.table-striped>tbody>tr:nth-of-type(odd)>* {
-    background-color: aquamarine;
-}*/
-
-th,
-td {
-    padding: 8px;
+/*fix overflow issue for search panes causing the page to get bigger*/
+.dtsp-panesContainer {
+    overflow: hidden;
 }
 
 .dt-search {
