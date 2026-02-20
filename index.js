@@ -23,8 +23,10 @@ function onPageReady() {
                 className: "incident",
                 type: "html",
                 render: function (data, type, row) {
-                    console.log(row)
-                    return "<div>" + data + carTooltip(row.car_names) + "</div>";
+                    if (type === 'display' || type === 'filter') {
+                        data = '<div>' + data + carTooltip(row.car_names) + "</div>";
+                    }
+                    return data
                 }
             },
             {
@@ -274,7 +276,7 @@ function updateLicenseCPI(licenseArray) {
     for (let item in series) {
         for (let license in licenseArray) {
             lic = license > userLicenseColumn && licenseArray[license].slice(-1) == "0" ? licenseArray[license].substr(0, 4) + "4" : licenseArray[license]
-            console.log(String(license > userLicenseColumn) + " " + String(licenseArray[license].slice(-1) == "0") + " : " + licenseArray[license] + " - " + lic)
+            //console.log(String(license > userLicenseColumn) + " " + String(licenseArray[license].slice(-1) == "0") + " : " + licenseArray[license] + " - " + lic)
             series[item]['license' + license] = Math.floor(series[item]['corners'] / calculateLicenseCPI(lic));
         }
     }
